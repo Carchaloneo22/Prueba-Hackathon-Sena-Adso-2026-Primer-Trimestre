@@ -1,0 +1,53 @@
+secureflow-adso/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   └── database.js
+│   │   ├── controllers/
+│   │   │   ├── authController.js
+│   │   │   ├── userController.js
+│   │   │   ├── taskController.js
+│   │   │   └── logController.js
+│   │   ├── middleware/
+│   │   │   ├── auth.js
+│   │   │   ├── roleCheck.js
+│   │   │   └── validation.js
+│   │   ├── models/
+│   │   │   ├── User.js
+│   │   │   ├── Task.js
+│   │   │   └── Log.js
+│   │   ├── routes/
+│   │   │   ├── authRoutes.js
+│   │   │   ├── userRoutes.js
+│   │   │   ├── taskRoutes.js
+│   │   │   └── logRoutes.js
+│   │   └── utils/
+│   │       ├── jwt.js
+│   │       ├── bcrypt.js
+│   │       └── sanitize.js
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+├── frontend/
+│   ├── css/
+│   │   ├── styles.css
+│   │   └── dashboard.css
+│   ├── js/
+│   │   ├── auth.js
+│   │   ├── dashboard.js
+│   │   ├── users.js
+│   │   ├── tasks.js
+│   │   ├── logs.js
+│   │   └── profile.js
+│   ├── pages/
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── dashboard.html
+│   │   ├── profile.html
+│   │   ├── admin-users.html
+│   │   ├── admin-logs.html
+│   │   └── user-tasks.html
+│   └── index.html
+├── database/
+│   └── schema.sql
+└── README.md

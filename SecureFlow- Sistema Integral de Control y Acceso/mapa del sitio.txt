@@ -1,0 +1,19 @@
+[ Inicio / Landing Page ]
+│
+├── [ /login ] (Autenticación)
+├── [ /registro ] (Registro de usuarios)
+│
+└── [ /app ] (Área protegida - Token válido)
+    │
+    ├── Vistas Comunes
+    │   ├── [ /perfil ]
+    │   └── [ /logout ]
+    │
+    ├── Rol: Usuario
+    │   └── [ /usuario/dashboard ]
+    │       └── [ /usuario/mis-tareas ]
+    │
+    └── Rol: Administrador
+        └── [ /admin/dashboard ]
+            ├── [ /admin/usuarios ]
+            └── [ /admin/logs ]

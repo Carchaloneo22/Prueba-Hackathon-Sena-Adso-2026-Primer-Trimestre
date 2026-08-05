@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureFlow ADSO - Sistema de Control y Acceso</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                <span>SecureFlow ADSO</span>
+            </div>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#features">Características</a></li>
+                <li><a href="#security">Seguridad</a></li>
+                <li><a href="/pages/login.html" class="btn-login">Iniciar Sesión</a></li>
+                <li><a href="/pages/register.html" class="btn-register">Registrarse</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 id="hero-title">Control de Acceso <span class="highlight">Seguro</span></h1>
+                <p>Gestión integral de usuarios con autenticación robusta, control de roles y monitoreo de actividad en tiempo real.</p>
+                <div class="hero-buttons">
+                    <a href="/pages/login.html" class="btn-primary">
+                        <i class="fas fa-sign-in-alt" aria-hidden="true"></i> Iniciar Sesión
+                    </a>
+                    <a href="/pages/register.html" class="btn-secondary">
+                        <i class="fas fa-user-plus" aria-hidden="true"></i> Registrarse
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="security-badge">
+                    <i class="fas fa-lock" aria-hidden="true"></i>
+                    <span>Seguridad de Alto Nivel</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features" aria-labelledby="features-title">
+        <div class="section-container">
+            <h2 id="features-title">Características del Sistema</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-user-shield" aria-hidden="true"></i></div>
+                    <h3>RBAC Avanzado</h3>
+                    <p>Control de acceso basado en roles con permisos diferenciados para administradores y usuarios.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-jwt" aria-hidden="true"></i></div>
+                    <h3>Autenticación JWT</h3>
+                    <p>Sistema de tokens seguro con expiración automática por inactividad y cierre manual de sesión.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-virus" aria-hidden="true"></i></div>
+                    <h3>Protección Avanzada</h3>
+                    <p>Validaciones en doble capa, protección contra SQL Injection, XSS y CSRF.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+                    <h3>Monitoreo en Tiempo Real</h3>
+                    <p>Logs de actividad y sesiones activas para seguimiento completo de operaciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Section -->
+    <section id="security" class="security" aria-labelledby="security-title">
+        <div class="section-container">
+            <h2 id="security-title">Seguridad <span class="highlight">Integral</span></h2>
+            <div class="security-grid">
+                <div class="security-item">
+                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                    <span>Validación en Frontend y Backend</span>
+                </div>
+                <div class="security-item">
+                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                    <span>Protección contra SQL Injection</span>
+                </div>
+                <div class="security-item">
+                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                    <span>Prevención de XSS</span>
+                </div>
+                <div class="security-item">
+                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                    <span>Protección CSRF</span>
+                </div>
+                <div class="security-item">
+                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                    <span>Contraseñas Hasheadas con Bcrypt</span>
+                </div>
+                <div class="security-item">
+                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                    <span>Rate Limiting</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <p>&copy; 2024 SecureFlow ADSO - Todos los derechos reservados</p>
+            <p>Desarrollado por el equipo ADSO</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
